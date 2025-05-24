@@ -1,0 +1,87 @@
+    /* GLOBAL STYLES */
+    body {
+      background: #e9ecef;
+      font-family: 'Roboto', sans-serif;
+      margin: 20px;
+      padding-bottom: 180px;
+    }
+    header {
+      background: linear-gradient(135deg, #343a40, #1a2a6c);
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+    /* INDICATORE DI STATO */
+    #gameStatus {
+      text-align: center;
+      font-size: 1.5rem;
+      margin: 10px 0;
+      color: red;
+    }
+    /* OROLOGI */
+    #clocks {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    #clockWhite, #clockBlack {
+      font-size: 1.3rem;
+      margin: 5px;
+      font-weight: bold;
+    }
+    /* BOARD */
+    #board {
+      width: 400px;
+      margin: 20px auto;
+    }
+    /* INFO PANELS */
+    #infoPanels {
+      margin: 20px auto;
+      max-width: 900px;
+    }
+    #capturedPieces, #moveHistory {
+      background: #fff;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      max-height: 300px;
+      overflow-y: auto;
+      margin-bottom: 20px;
+    }
+    #capturedPieces h5, #moveHistory h5 {
+      margin-top: 0;
+    }
+    /* CONTROLS */
+    #controls {
+      text-align: center;
+      margin: 20px auto;
+      max-width: 600px;
+    }
+    /* FOOTER */
+    footer {
+      background: #343a40;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+    }
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+      #board {
+        width: 320px;
+      }
+      header h1 {
+        font-size: 2.2rem;
+      }
+    }
