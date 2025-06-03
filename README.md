@@ -10,6 +10,8 @@ Welcome to **Chess** Webgame Single Player – a comprehensive chess platform th
 ![Project Completed](https://img.shields.io/badge/Project-Completed-green?style=for-the-badge)
 ![GPL v3](https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge)
 
+[![Test Online](https://img.shields.io/badge/Test%20Online-Click%20Here-brightgreen?style=for-the-badge)](https://bocaletto-luca.github.io/Chess/)
+
 ## ✨ Overview
 
 Chess WebApp Single Player features:
