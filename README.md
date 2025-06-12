@@ -1,4 +1,5 @@
 # Chess Webgame ♟️
+#### Author: Bocaletto Luca
 
 Welcome to **Chess** Webgame Single Player – a comprehensive chess platform that brings official tournament features directly to your browser!
 
